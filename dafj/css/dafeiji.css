@@ -1,0 +1,80 @@
+
+
+* {margin:  0; padding: 0; border: none;}
+ul, li {list-style: none;}
+body, html {width: 100%; height: 100%; overflow: hidden;}
+
+/*主菜单*/
+#box {
+	width: 480px;
+	height: 100%;
+	background: url(../img/bg.jpg) repeat-y;
+	margin: 0 auto;
+	position: relative;
+}
+
+#box #list {
+	width: 200px;
+	position: absolute;
+	left: 140px; top: 200px;
+}
+
+#box #list li {
+	width: 198px;
+	height: 70px;
+	background: #f45;
+	border: 1px solid black;
+	border-radius: 5px;
+	color: white;
+	font-size: 26px;
+	font-family: "微软雅黑";
+	text-align: center;
+	line-height: 70px;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+/*游戏加载*/
+.logo {
+	width: 428px; height: 104px;
+	background: url(../img/logo.png);
+	position: absolute;
+	left: 26px; top: 25%;
+}
+
+.load {
+	width: 200px; height: 42px;
+	background: url(../img/loading1.png) no-repeat;
+	position: absolute;
+	left: 140px; top: 70%;
+}
+
+.lofeiji{
+	width: 98px;
+	height: 122px;
+	background: url(../img/me.png) no-repeat;
+	position: absolute;
+}
+
+.zhidan{
+	width: 7px;height: 18px;
+	background: url(../img/bullet.png) no-repeat;
+	position: absolute;
+}
+.dafeiji{
+	width: 165px;height: 256px;
+	background: url(../img/plane3.png) no-repeat;
+	position: absolute;
+}
+.zhonfeiji{
+	width: 70px;height: 92px;
+	background: url(../img/plane2.png) no-repeat;
+	position: absolute;
+		
+}
+.xiaofeiji{
+	width: 59px;height: 36px;
+	background: url(../img/plane1.png) no-repeat;
+	position: absolute;
+}
+

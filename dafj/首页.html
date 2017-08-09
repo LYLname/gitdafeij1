@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/dafeiji.css" />
+		<script src="js/Eameeiine.js"></script>
+		<script src="js/myfeiji.js"></script>
+		<script src="js/zhidan.js"></script>
+		<script src="js/difeiji.js"></script>
+		<script src="js/common.js"></script>
+	</head>
+	<body>
+		<div id="box">
+			<ul id="list">
+				<li>超级困难</li>
+				<li>困难</li>
+				<li>简单</li>
+				<li>春哥附体</li>
+			</ul>
+		</div>
+	</body>
+	<script>
+		var oul = document.getElementById("list");
+		var oli = oul.getElementsByTagName("li");
+		for(var i =0;i<oli.length;i++){
+				oli[i].onclick=function(){
+					oul.parentNode.removeChild(oul);
+					Eameeline.init().kais();
+			}
+		}
+	</script>
+</html>
